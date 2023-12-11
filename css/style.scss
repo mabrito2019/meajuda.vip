@@ -1,0 +1,46 @@
+menu, menu ul, menu li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Estilo do menu horizontal */
+menu ul {
+    background-color: #333; /* Cor de fundo do menu */
+    display: flex;
+    justify-content: center;
+}
+
+menu li {
+    margin-right: 10px; /* Espaçamento entre os itens */
+}
+
+menu a {
+    font-size: large;
+    text-decoration: none;
+    color: #fff; /* Cor do texto do link */
+    padding: 10px; /* Preenchimento interno do link */
+    display: flex;
+    align-items: center;
+}
+
+menu a:hover {
+    background-color: #555; /* Cor de fundo ao passar o mouse */
+}
+
+#corpo {
+    // background-image: url('../galeria/imagens/notebook-na-mesa-4.jpg');
+    background-color: linear-gradient(#945AFA, #5F5AFA);
+    background-size: cover; /* Faz com que a imagem cubra toda a área do elemento */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    color: #ffffff; /* Define a cor do texto para garantir contraste legível sobre a imagem de fundo */
+    padding: 20px; /* Adiciona algum espaço interno ao conteúdo da tag main */
+    height: 80vh;
+}
+
+#header > menu > ul > li > a > img {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
